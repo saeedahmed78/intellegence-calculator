@@ -6,7 +6,7 @@ function calculate() {
 	if (userName === "") {
 	alert("Enter your Name");
  	
-}else if ((userName == "Hania shareef" || userName == "hania shareef") && (count <=1)) {
+}else if ((userName == "Hania" || userName == "hania") && (count <=1)) {
 	document.querySelector(".alert-shownumber").innerHTML = userName + " Your are " + intMeters[6];
 }else if (count <= 1){
 	intMeter = intMeters[Math.floor(Math.random()*intMeters.length)];
